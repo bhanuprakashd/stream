@@ -20,7 +20,7 @@ import requests
 from googlesearch import search
 import asyncio
 import chromadb
-client = chromadb.PersistentClient(path="/home/bhanu/Downloads/FDA_Data")
+client = chromadb.PersistentClient(path="data")
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 ###########################################################################################################
