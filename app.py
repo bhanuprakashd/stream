@@ -9,7 +9,7 @@ from langchain_community.tools import DuckDuckGoSearchResults,DuckDuckGoSearchRu
 from bs4 import BeautifulSoup
 import streamlit as st
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from duckduckgo_search import DDGS, AsyncDDGS
+from duckduckgo_search import DDGS
 from langchain_openai import ChatOpenAI
 from sentence_transformers import SentenceTransformer,util
 from itertools import cycle
